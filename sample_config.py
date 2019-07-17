@@ -7,8 +7,8 @@ from telethon.tl.types import ChatBannedRights
 class Config(object):
     LOGGER = True
     # Get this value from my.telegram.org! Please do not steal
-    APP_ID = int(os.environ.get("APP_ID", 6))
-    API_HASH = os.environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
+    APP_ID = int(os.environ.get("APP_ID", 798886))
+    API_HASH = os.environ.get("API_HASH", "c6a45b6cd33c632204977e823817a235")
     # string session for running on Heroku
     # some people upload their session files on GitHub or other third party hosting
     # websites, this might prevent the un-authorized use of the
@@ -49,7 +49,7 @@ class Config(object):
     # set blacklist_chats where you do not want userbot's features
     UB_BLACK_LIST_CHAT = set(int(x) for x in os.environ.get("UB_BLACK_LIST_CHAT", "").split())
     # maximum number of messages for antiflood
-    MAX_ANTI_FLOOD_MESSAGES = 10
+    MAX_ANTI_FLOOD_MESSAGES = 4
     # warn mode for anti flood
     ANTI_FLOOD_WARN_MODE = ChatBannedRights(
         until_date=None,
@@ -73,7 +73,7 @@ class Config(object):
     # feel free to use http://telegram.dog/Remove_BGBot
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     # Set to True if you want to block users that are spamming your PMs.
-    SLAP_USERNAME = os.environ.get("SLAP_USERNAME", None)
+    SLAP_USERNAME = os.environ.get("SLAP_USERNAME", True)
     GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
     GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
     NO_P_M_SPAM = bool(os.environ.get("NO_P_M_SPAM", False))
