@@ -44,7 +44,7 @@ async def _(event):
             "`Me Calling Pavel Durov Shukla....`",
             "`Me: Hello Sir, Please Ban This Guys Telegram Account.`",    
             "`Durov: May I Know Who Is This?`",
-            "`Me: Yo Brah, I Am` @Hopsins",
+            "`Me: Yo Brah, I Am` @Mr_MATRlX",
             "`Durov: OMG!!! I Am FAN Of You Sir...\nI'll Make Sure That Guy Account Will Get Blocked Within 24Hrs.`",
             "`Me: See You Later Brah.`",
             "`Private VOIP Call Disconnected.`",
